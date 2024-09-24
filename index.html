@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Project-Welcome_to_Bon_Hotel</title>
+</head>
+<body>
+    <header class="flex flex-col items-center ">
+        <img class="p-16" src="./assets/img/logo_header.png" alt="schönesLogo">
+        <nav class="flex gap-x-16 pb-16">
+            <a href="">Out Hotel</a>
+            <a href="">Rooms & Rates</a>
+            <a href="">Facilities</a>
+            <a href="">Contact Us</a>
+            <i class="fa fa-search"></i>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-[url('./assets/img/hero_image.png')] h-96 bg-cover bog-center bg-no-repeat flex flex-col items-center justify-end pb-16">
+            <h1 class="text-4xl text-white pb-4">Welcome to Bon Hotel</h1>
+            <p class="text-base text-white pb-4">Good people. Good thinking. Good feeling.</p>
+            <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4">EXPLORE</button>            
+        </section>
+        <section class="flex flex-col p-16 items-center">
+            <h2 class="text-2xl text-orange-300">Facilities</h2>
+            <div class="flex p-8 gap-8">
+                <div class="text-center">
+                    <img src="./assets/img/icon_kitchen.png" alt="">
+                    <p class="p-1 text-orange-300">Kitchen</p>
+                </div>
+                <div class="text-center">
+                    <img src="./assets/img/icon_pool.png" alt="">
+                    <p class="p-1 text-orange-300">Pool</p>
+                </div>
+                <div class="text-center">
+                    <img src="./assets/img/icon_wifi.png" alt="">
+                    <p class="p-1 text-orange-300">WiFi</p>
+                </div>
+                <div class="text-center">
+                    <img src="./assets/img/icon_fitness.png" alt="">
+                    <p class="p-1 text-orange-300">Gym</p>
+                </div>
+                <div class="text-center">
+                    <img src="./assets/img/icon_taxi.png" alt="">
+                    <p class="p-1 text-orange-300">Taxi</p>
+                </div>   
+            </div>
+        </section>
+        <section>
+            <h2 class="text-2xl text-orange-300 text-center pb-16">Rooms & Rates</h2>
+            <div class="grid grid-cols-2 gap-8 w-3/4 mx-auto">
+                <div class="bg-[url('./assets/img/standard_twin_room.png')] h-96 bg-cover bg-center bg-no-repeat rounded flex flex-col justify-end items-center p-8">
+                    <div>
+                        <h2 class="text-2xl text-white text-center">Standard Twin Room</h2>
+                        <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4">Check Rates</button>
+                    </div>
+                </div>
+                <div class="bg-[url('./assets/img/standard_room.png')] h-96 bg-cover bg-center bg-no-repeat rounded flex flex-col justify-end items-center p-8">
+                    <div>
+                        <h2 class="text-2xl text-white text-center">Standard Room</h2>
+                        <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4">Check Rates</button>
+                    </div>
+                </div>
+                <div class="bg-[url('./assets/img/standard_view_room.png')] h-96 bg-cover bg-center bg-no-repeat rounded flex flex-col justify-end items-center p-8">
+                    <div>
+                        <h2 class="text-2xl text-white text-center">Standard View Room</h2>
+                        <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4">Check Rates</button>
+                    </div>
+                </div>
+                <div class="bg-[url('./assets/img/deluxe_room.png')] h-96 bg-cover bg-center bg-no-repeat rounded flex flex-col justify-end items-center p-8">
+                    <div>
+                        <h2 class="text-2xl text-white text-center">Deluxe Room</h2>
+                        <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4">Check Rates</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col items-center pb-32">
+            <h2 class="text-2xl text-orange-300 text-center pt-32 pb-4 font-bold">Get a Room Already!</h2>
+            <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4 w-1/4">Book Now</button>
+        </section>
+    </main>
+    <footer class="bg-black pb-32">
+        <div class="flex justify-between mx-auto w-3/4 pt-16">
+            <div>
+                <img src="./assets/img/logo_footer.png" alt="">
+                <div>
+                    <h4 class="text-white">Bon Hotels Head Office</h4>
+                    <p class="text-white">+27 434 344 432</p>
+                    <p class="text-white">info@bonhotels.com</p>
+                </div>  
+            </div>
+            <nav class="flex flex-col gap-y-4">
+                <a class="text-white">Our Hotels</a>
+                <a class="text-white" href="">Our Conferencing</a>
+                <a class="text-white" href="">Our Company</a>
+                <a class="text-white" href="">Hotel Design</a>
+                <a class="text-white" href="">Careeres</a>
+            </nav>
+            <div class="mb-5">
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subcribe for Offers</label>
+                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="your Email" required />
+                <button class="text-lg bg-orange-300 hover:bg-orange-400 text-white py-2 px-16 border border-orange-300 rounded font-bold mt-4">Subscribe Now</button>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
